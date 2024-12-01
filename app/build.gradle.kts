@@ -88,6 +88,8 @@ dependencies {
     testImplementation(libs.mockito.inline)
     testImplementation(libs.byte.buddy)
 
+
     androidTestImplementation(libs.espresso.intents)
+    androidTestImplementation(libs.androidx.espresso.intents.v351)
     androidTestImplementation(libs.androidx.espresso.idling.resource)
 }
